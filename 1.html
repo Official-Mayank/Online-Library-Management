@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Global  Warming</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./images/earth.ico" type="image/ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+
+ body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
+.jumbotron {
+      background-image: url("https://farm1.static.flickr.com/630/22509777627_8ae51c5016_b.jpg");
+	    background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center; 
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+.container-fluid {
+      padding: 60px 50px;
+  }
+.logo {
+	padding-top: 150px;
+      color: #43b293;
+      font-size: 200px;
+  }
+.navbar {
+      margin-bottom: 0;
+      background-color: #43b293;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 3px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+.navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+.navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #43b293 !important;
+      background-color: #fff !important;
+  }
+footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #43b293;
+  }
+
+  div.img_pic {
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.img_name {
+  padding: 10px;
+}
+div.img_pic:hover {
+  box-shadow: 0 6px 20px 0 rgba(67,178,147,1);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+</style>
+</head>
+<body id="index" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#index">HOME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#images">IMAGES</a></li>
+        <li><a href="#leaderboard">LEADERBOARD</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    		<li><a href="contribute.html">CONTRIBUTE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Arctic</h1> 
+  <p>We specialize in Social Research</p> 
+</div>
+
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Arctic</h2><br>
+      <h4>In recent decades, the Arctic region has been experiencing unprecedented ecological and social changes. One of the challenges facing Alaskan Native communities in the Arctic is maintaining and transferring local and indigenous knowledge to younger generations, as young Inupiaq hunters lack opportunities to take part in all seasonal subsistence activities. Thus, activities that strengthen community social networks, allow the sharing of information between generations, and increase understanding of the local environment, are extremely meaningful for cultural preservation, food security, and climate resilience in Arctic communities. Help promote communication between Elders and the youth, as well as encourage young hunters to document their environment in their own local language, through a mobile game!  Allow the integration and comparison of local observations with satellite data to increase our understanding of the Arctic as a system, to create records of climate conditions over time, and to promote adaptation strategies. </h4>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo" style="padding-left: 100px;"></span>
+    </div>
+  </div>
+</div>
+
+<script> 
+/******************************************************IMAGE CHANGE*********************************************************/
+function changeImage1()
+{
+var img = document.getElementById("image1");
+img.src="./images/heart2.png";
+return false;
+}
+function changeImage2()
+{
+var img = document.getElementById("image2");
+img.src="./images/heart2.png";
+return false;
+}
+function changeImage3()
+{
+var img = document.getElementById("image3");
+img.src="./images/heart2.png";
+return false;
+}
+function changeImage4()
+{
+var img = document.getElementById("image4");
+img.src="./images/heart2.png";
+return false;
+}
+function changeImage5()
+{
+var img = document.getElementById("image5");
+img.src="./images/heart2.png";
+return false;
+}
+function changeImage6()
+{
+var img = document.getElementById("image6");
+img.src="./images/heart2.png";
+return false;
+}
+function changeImage7()
+{
+var img = document.getElementById("image7");
+img.src="./images/heart2.png";
+return false;
+}
+function changeImage8()
+{
+var img = document.getElementById("image8");
+img.src="./images/heart2.png";
+return false;
+}
+/*********************************************************IMAGE CHANGE******************************************************/
+</script>
+
+<div id="images" class="container-fluid text-center">
+        <h2>Images</h2>
+</div>        
+<div class="container-fluid">
+  <div class="row">
+  <!-- Image 1-->
+    <div class="col-md-3"  style="height: 400px; overflow: hidden;">
+          <div class="img_pic" style="-webkit-border-radius:10px;">
+            <img src="./images/glacier1.jpg" id="img1" style="width:250px; height:200px; -webkit-border-top-left-radius:10px; -webkit-border-top-right-radius:10px;">
+            <div class="img_name">
+              <img src="./images/heart1.png" id="image1" style="height: 20px; width: 20px;" onclick="changeImage1(); updateCounter1();"><p>ICE CAPS</p>
+              <div style="color:red">
+                  <p id="counted1"></p>
+                <script type="text/javascript">
+                  var count1 = 0;
+                  var x1=0;
+                  function updateCounter1() {
+                      count1++;  
+                      document.getElementById("counted1").innerHTML =count1;
+                      x1++; 
+                      document.getElementById("x1").innerHTML = x1;
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Image 2-->
+    <div class="col-md-3"  style="height: 400px; overflow: hidden;">
+          <div class="img_pic" style="-webkit-border-radius:10px;">
+            <img src="./images/glacier2.jpg" id="img2" style="width:250px; height:200px; -webkit-border-top-left-radius:10px; -webkit-border-top-right-radius:10px;">
+            <div class="img_name">
+              <img src="./images/heart1.png" id="image2" style="height: 20px; width: 20px;" onclick="changeImage2(); updateCounter2();"><p>ICE CAPS</p>
+                <div style="color:red">
+                  <p id="counted2"></p>
+                <script type="text/javascript">
+                  var count2 = 0;
+                  var x2=0;
+                  function updateCounter2() {
+                      count2++;  
+                      document.getElementById("counted2").innerHTML =count2;
+                      x2++; 
+                      document.getElementById("x2").innerHTML = x2;
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Image 3-->
+    <div class="col-md-3"  style="height: 400px; overflow: hidden;">
+          <div class="img_pic" style="-webkit-border-radius:10px;">
+            <img src="./images/glacier3.jpg" id="img3" style="width:250px; height:200px; -webkit-border-top-left-radius:10px; -webkit-border-top-right-radius:10px;">
+            <div class="img_name">
+              <img src="./images/heart1.png" id="image3" style="height: 20px; width: 20px;" onclick="changeImage3(); updateCounter3();"><p>ICE CAPS</p>
+              <div style="color:red">
+                  <p id="counted3"></p>
+                <script type="text/javascript">
+                  var count3 = 0;
+                  var x3=0;
+                  function updateCounter3() {
+                      count3++;  
+                      document.getElementById("counted3").innerHTML =count3;
+                      x3++; 
+                      document.getElementById("x3").innerHTML = x3;
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Image 4-->
+    <div class="col-md-3"  style="height: 400px; overflow: hidden;">
+          <div class="img_pic" style="-webkit-border-radius:10px;">
+            <img src="./images/glacier4.jpg" id="img4" style="width:250px; height:200px; -webkit-border-top-left-radius:10px; -webkit-border-top-right-radius:10px;">
+            <div class="img_name">
+              <img src="./images/heart1.png" id="image4" style="height: 20px; width: 20px;" onclick="changeImage4(); updateCounter4();"><p>ICE CAPS</p>
+              <div style="color:red">
+                  <p id="counted4"></p>
+                <script type="text/javascript">
+                  var count4 = 0;
+                  var x4=0;
+                  function updateCounter4() {
+                      count4++;  
+                      document.getElementById("counted4").innerHTML =count4;
+                      x4++; 
+                      document.getElementById("x4").innerHTML = x4;
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Image 5-->
+    <div class="col-md-3"  style="height: 400px; overflow: hidden;">
+          <div class="img_pic" style="-webkit-border-radius:10px;">
+            <img src="./images/glacier5.jpg" id="img5" style="width:250px; height:200px; -webkit-border-top-left-radius:10px; -webkit-border-top-right-radius:10px;">
+            <div class="img_name">
+              <img src="./images/heart1.png" id="image5" style="height: 20px; width: 20px;" onclick="changeImage5(); updateCounter5();"><p>ICE CAPS</p>
+              <div style="color:red">
+                  <p id="counted5"></p>
+                <script type="text/javascript">
+                  var count5 = 0;
+                  var x5=0;
+                  function updateCounter5() {
+                      count5++;  
+                      document.getElementById("counted5").innerHTML =count5;
+                      x5++; 
+                      document.getElementById("x5").innerHTML = x5;
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Image 6-->
+    <div class="col-md-3"  style="height: 400px; overflow: hidden;">
+          <div class="img_pic" style="-webkit-border-radius:10px;">
+            <img src="./images/glacier6.jpg" id="img6" style="width:250px; height:200px; -webkit-border-top-left-radius:10px; -webkit-border-top-right-radius:10px;">
+            <div class="img_name">
+              <img src="./images/heart1.png" id="image6" style="height: 20px; width: 20px;" onclick="changeImage6(); updateCounter6();"><p>ICE CAPS</p>
+              <div style="color:red">
+                  <p id="counted6"></p>
+                <script type="text/javascript">
+                  var count6 = 0;
+                  var x6=0;
+                  function updateCounter6() {
+                      count6++;  
+                      document.getElementById("counted6").innerHTML =count6;
+                      x6++; 
+                      document.getElementById("x6").innerHTML = x6;
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Image 7-->
+    <div class="col-md-3"  style="height: 400px; overflow: hidden;">
+          <div class="img_pic" style="-webkit-border-radius:10px;">
+            <img src="./images/glacier7.jpg" id="img7" style="width:250px; height:200px; -webkit-border-top-left-radius:10px; -webkit-border-top-right-radius:10px;">
+            <div class="img_name">
+              <img src="./images/heart1.png" id="image7" style="height: 20px; width: 20px;" onclick="changeImage7(); updateCounter7();"><p>ICE CAPS</p>
+              <div style="color:red">
+                  <p id="counted7"></p>
+                <script type="text/javascript">
+                  var count7 = 0;
+                  var x7=0;
+                  function updateCounter7() {
+                      count7++;  
+                      document.getElementById("counted7").innerHTML =count7;
+                      x7++; 
+                      document.getElementById("x7").innerHTML = x7;
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+    </div>
+
+      
+
+    <!-- Image 8-->
+    <div class="col-md-3"  style="height: 400px; overflow: hidden;">
+          <div class="img_pic" style="-webkit-border-radius:10px;">
+            <img src="./images/glacier8.jpg" id="img8" style="width:250px; height:200px; -webkit-border-top-left-radius:10px; -webkit-border-top-right-radius:10px;">
+            <div class="img_name">
+              <img src="./images/heart1.png" id="image8" style="height: 20px; width: 20px;" onclick="changeImage8(); updateCounter8();"><p>ICE CAPS</p>
+              <div style="color:red">
+                  <p id="counted8"></p>
+                <script type="text/javascript">
+                  var count8 = 0;
+                  var x8=0;
+                  function updateCounter8() {
+                      count8++; 
+                      document.getElementById("counted8").innerHTML =count8;
+                      x8++; 
+                      document.getElementById("x8").innerHTML = x8;
+                      sortTable();
+                  }
+
+                </script>
+              </div>
+            </div>
+          </div>
+    </div>
+
+  </div>
+</div>
+
+<p><button onclick="sortTable()">Sort</button></p>
+<div id="leaderboard" class="container-fluid text-center">
+  <h2>Leaderboard</h2>
+  <div id="portfolio" class="container-fluid text-center bg-grey">
+
+<table id="table">
+  <tr>
+    <th>Rank</th>
+    <th>Name</th>
+    <th>Likes</th>
+  </tr>
+  <tr>
+    <td id="item1">#1</td>
+    <td><script type="text/javascript">
+      var x = document.getElementById("img1").id;
+      document.write(x);
+    </script>
+    <td>
+      <p id="x1"></p>
+    </td>
+  </tr>
+  <tr>
+    <td>#2</td>
+    <td><script type="text/javascript">
+      var x = document.getElementById("img2").id;
+      document.write(x);
+    </script></td>
+    <td>
+      <p id="x2"></p></td>
+  </tr>
+  <tr>
+    <td>#3</td>
+    <td><script type="text/javascript">
+      var x = document.getElementById("img3").id;
+      document.write(x);
+    </script></td>
+    <td>
+      <p id="x3"></p></td>
+  </tr>
+  <tr>
+    <td>#4</td>
+    <td><script type="text/javascript">
+      var x = document.getElementById("img4").id;
+      document.write(x);
+    </script></td>
+    <td>
+      <p id="x4"></p></td>
+  </tr>
+  <tr>
+    <td>#5</td>
+    <td><script type="text/javascript">
+      var x = document.getElementById("img5").id;
+      document.write(x);
+    </script></td>
+    <td>
+      <p id="x5"></p></td>
+  </tr>
+  <tr>
+    <td>#6</td>
+    <td><script type="text/javascript">
+      var x = document.getElementById("img6").id;
+      document.write(x);
+    </script></td>
+    <td>
+      <p id="x6"></p></td>
+  </tr>
+  <tr>
+    <td>#7</td>
+    <td><script type="text/javascript">
+      var x = document.getElementById("img7").id;
+      document.write(x);
+    </script></td>
+    <td>
+      <p id="x7"></p></td>
+  </tr>
+  <tr>
+    <td>#8</td>
+    <td><script type="text/javascript">
+       var x = document.getElementById("img8").id;
+      document.write(x);   
+    </script></td>
+    <td>
+      <p id="x8"></p>
+    </td>
+  </tr>
+</table>
+	<!--Sortin tech-->
+	<script>
+function sortTable() {
+  var table, rows, switching, i, x, y, shouldSwitch;
+  table = document.getElementById("table");
+  switching = true;
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.getElementsByTagName("tr");
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 1; i < (rows.length - 1); i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      x = rows[i].getElementsByTagName("td")[2];
+      y = rows[i + 1].getElementsByTagName("td")[2];
+      //check if the two rows should switch place:
+      //var x1=x.value;
+      //var x2=y.value;
+      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) 
+        //if so, mark as a switch and break the loop:
+        shouldSwitch= true;
+        break;
+      }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+    }
+  }
+}
+</script>
+</div>
+</div> 
+
+<div id="contact" class="container-fluid text-center">
+  <h2>CONTACT US</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.2955254162757!2d80.04209021482045!3d12.824170090952764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f70d37c35faf%3A0x150be8ecf0c8f817!2sSRM+University!5e0!3m2!1sen!2sin!4v1476529212661" width=100% height="450" frameborder="10" style="height: 400px; width: 800px;">
+  </iframe>
+</div>
+
+<footer class="container-fluid text-center">
+  <a href="#index">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Back to top?</p>
+</footer>
+
+</body>
+</html>

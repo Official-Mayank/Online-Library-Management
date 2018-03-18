@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ <link rel = "stylesheet" 
+ type = "text/css" 
+ href = "index.css"/>
+<head>
+	<title>Logi-n</title>
+</head>
+<body align="center">
+<div class="nav" id="home">
+ 	<ul>
+ 		<li style="float:left; margin-left:30px; height:"><a href="#"><img src="image/icon1.png"></a></li>
+ 	    <li style="float:left;"><a href="#">ONLINE LIBRARY</a></li>
+ 		<li><a href="#register">Register</a></li>
+ 		<li><a href="#login">Login</a></li>
+ 		<li><a href="#home">Home</a></li>	
+ 	</ul>
+ </div>
+ <div class="head">
+ 	<img src="image/book1.jpg" width="100%" height="550px">
+ 	<div class="center-text">
+ 	 ONLINE LIBRARY
+ 	</div>	
+ </div>
+<div class="login" id="login"> 
+<h1 id="h3" align="center">
+	LOGIN
+</h1>
+<div class="formc">	
+	<form method="post" action="form.php">
+			<p>Username: <input id="user" type="text" name="username" placeholder="Enter Username" ><br></p>
+			<p>Password:  <input id="pass" type="password" name="password" placeholder="Enter Password"><br></p>
+			<p><BUTTON id="sub" action="form.php">Submit</BUTTON>  <BUTTON id="reg">Register</BUTTON></p>
+	</form>
+</div>
+</div>
+<div class="register" id="register">
+<h1 align="center">REGISTER</h1><br>
+<center>
+	<form method="post" action="reg.php">
+	<table valign="left" border="0" cellspacing="4" cellpadding="4">
+					<tr><td><b>Register No.</b></td><td><input type="text" name="regno"></td></tr>
+					<tr><td><b>User Name</b></td><td><input type="text" name="uname"></td></tr>
+					<tr><td><b>Password</b></td><td><input type="password" name="pwd"></td></tr>
+					<tr><td><b>Confirm Password</b></td><td><input type="password" name="cpwd"></td></tr>
+					<tr><td><b>Gender</b></td><td><input type="radio" name="gender" value="Male">Male<input type="radio" name="gender" value="Female">Female</td></tr>
+					<tr><td><b>Date of Birth</b></td><td><input type="text" name="dd" size="2">/<input type="text" name="mm" size="2">/<input type="text" name="yy" size="4"> dd/mm/yyyy</td></tr>
+					<tr><td><b>Department</b></td><td><select name="dept"><option>IT</option><option>CSE</option><option>SWE</option><option>ECE</option></td></tr>
+					<tr><td><b>E-mail Id.</b></td><td><input type="text" name="email"></tr>
+					<tr><td><b>Mobile No.</b></td><td><input type="text" name="mobile"></tr>
+					<tr><td></td><td><input type="submit" value=" Submit " name="btnsubmit"></td></tr>
+				</table>
+
+
+	</form>
+	</center>
+</div>
+</body>
+</html>
