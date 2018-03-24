@@ -1,0 +1,66 @@
+
+body{
+    margin:0px;
+    align-items: center;
+    font-size: 14px;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #48a35c;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+} 
+.head {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center-text
+{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    font-size: 50px;
+    color: #ffffff; 
+}
+.search
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    height: 280px;
+    background: linear-gradient(to bottom right,#CFCA00,#FF9700);
+}
+#results
+{
+    
+}
+.Add
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: linear-gradient(to bottom right,#00E676,#1B5E20);
+}
+.Remove
+{
+     padding-top: 100px;
+    padding-bottom: 80px;
+    background: linear-gradient(to bottom right,#00E676,#1B5E20);
+}

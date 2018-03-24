@@ -6,6 +6,17 @@
 <head>
 	<title>Logi-n</title>
 </head>
+<script language="Javascript">
+
+            function isEmpty(){ 
+
+                if(document.login.password.value=="" || document.login.username.value=="")
+                {
+                    alert("Password must be of 8 or more characters!!!");
+                }
+                return;
+           }
+</script>
 <body align="center">
 <div class="nav" id="home">
  	<ul>
@@ -27,10 +38,10 @@
 	LOGIN
 </h1>
 <div class="formc">	
-	<form method="post" action="form.php">
+	<form method="post" action="form.php" name="login">
 			<p>Username: <input id="user" type="text" name="username" placeholder="Enter Username" ><br></p>
 			<p>Password:  <input id="pass" type="password" name="password" placeholder="Enter Password"><br></p>
-			<p><BUTTON id="sub" action="form.php">Submit</BUTTON>  <BUTTON id="reg">Register</BUTTON></p>
+			<p><BUTTON id="sub" onClick="isEmpty()" action="form.php">Submit</BUTTON>  <BUTTON id="reg">Register</BUTTON></p>
 	</form>
 </div>
 </div>
